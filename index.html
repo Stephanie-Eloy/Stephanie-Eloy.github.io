@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pt">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Stephanie Eloy" />
+
+  <title>Stephanie Eloy - Designer</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="animate.css" />
+  <link rel="stylesheet" href="icomoon.css" />
+  <link rel="stylesheet" href="bootstrap.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <body>
+    <script>
+  function toggleMenu() {
+    const menu = document.querySelector('.fh5co-tab-menu');
+    menu.classList.toggle('show');
+  }
+</script>
+
+
+  <div class="w3-sidebar">
+    <!-- Conteúdo da sidebar -->
+  </div>
+
+  <!-- Restante do conteúdo -->
+ </body>
+
+  <!-- Estilo Dourado e Customizado -->
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Montserrat", sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .w3-row-padding img {
+      margin-bottom: 12px;
+    }
+
+    .w3-sidebar {
+      width: 100px;
+      background: #494949;
+    }
+
+    #main {
+      margin-left: 120px;
+    }
+
+    @media only screen and (max-width: 300px) {
+      #main {
+        margin-left: 0;
+      }
+    }
+
+    /* Vídeo centralizado em fullscreen */
+    #intro-video {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100vw;
+      min-height: 100vh;
+      transform: translate(-50%, -50%);
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    /* Texto com brilho */
+    .texto-brilho {
+      background: linear-gradient(90deg, #000000, #ffffff, #000000);
+      background-size: 200% 100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: brilho 3s linear infinite;
+      font-weight: bold;
+    }
+
+    @keyframes brilho {
+      0% {
+        background-position: 0%;
+      }
+
+      100% {
+        background-position: 100%;
+      }
+    }
+
+    .fh5co-social {
+      list-style: none;
+      padding: 0;
+      margin: 20px auto;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      max-width: 150px;
+    }
+
+    .fh5co-social li {
+      display: inline-block;
+    }
+
+    .fh5co-social a i {
+      color: #000000 !important;
+      font-size: 20px;
+    }
+
+    /* Cor branca neon nos gráficos circulares */
+    .chart canvas {
+      filter: drop-shadow(0 0 6px #ffffff);
+    }
+
+    .chart .percent {
+      color: #ffffff;
+      text-shadow: 0 0 5px #ffffff;
+    }
+  </style>
+
+  <!-- Modernizr -->
+  <script src="modernizr-2.6.2.min.js"></script>
+</head>
+
+<body class="w3-black">
+  <!-- Ícones sociais centralizados no topo -->
+  <ul class="fh5co-social">
+    <li><a href="mailto:stephanie_eloy@icloud.com" title="E-mail"><i class="fa fa-envelope"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/seuusuario" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+  </ul>
+
+  <!-- Vídeo de fundo -->
+  <video autoplay muted playsinline id="intro-video">
+    <source src="Video logo/Vídeo sem título - Feito com Clipchamp (1).mp4" type="video/mp4" />
+    Seu navegador não suporta vídeo em HTML5.
+  </video>
+
+  <!-- Conteúdo principal após o vídeo -->
+  <div class="w3-padding-large" id="main" style="margin-top: 100vh;">
+    <!-- Conteúdo do portfólio -->
+  </div>
+
+ <div id="fh5co-main">
+  <div class="fh5co-tab-wrap">
+    <button class="menu-toggle" onclick="toggleMenu()"></button> <!-- NOVO -->
+    <ul class="fh5co-tab-menu">
+      <li class="active"><a href="#" data-tab="1"><span class="menu-text">Sobre mim</span></a></li>
+      <li><a href="#" data-tab="2"><span class="menu-text">Educação e Formação</span></a></li>
+      <li><a href="#" data-tab="3"><span class="menu-text">Experiência Profissional</span></a></li>
+      <li><a href="#" data-tab="4" data-pie="yes"><span class="menu-text">Skills</span></a></li>
+      <li><a href="#" data-tab="5"><span class="menu-text">Contactos</span></a></li>
+    </ul>
+
+
+      <!-- SOBRE MIM -->
+      <div class="fh5co-tab-content active" data-content="1">
+        <div class="fh5co-content-inner text-center">
+          <figure class="neon-foto">
+  <img src="FOTO/PRETO E BRANCO.JPG" alt="Stephanie Eloy" title="Stephanie Eloy">
+</figure>
+
+          <h1 class="texto-brilho" style="font-size: 4rem;">STEPHANIE ELOY</h1>
+          <P>
+          </P>   
+<p style="font-size: 19px;">
+  Apaixonada por design, dedico-me à criação de experiências visuais impactantes que promovem conexões significativas entre usuários e marcas.
+</p>
+<p style="font-size: 19px;">
+  Com uma abordagem orientada à pesquisa e atenção minuciosa aos detalhes, transformo ideias complexas em soluções visuais claras, funcionais e esteticamente refinadas.
+</p>
+<p style="font-size: 19px;">
+  Cada projeto é conduzido com compromisso e rigor, buscando sempre aliar inovação, usabilidade e comunicação eficaz.
+</p>
+<p style="font-size: 19px;">
+  Estou empenhada em colaborar com equipes e organizações que valorizem excelência, criatividade e resultados relevantes.
+</p>
+          <ul class="fh5co-social">
+             <ul class="fh5co-social">
+        <li><a href="mailto:stephanie_eloy@icloud.com" title="E-mail"><i class="fa fa-envelope"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/seuusuario" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+  </div>
+
+<!-- EDUCAÇÃO -->
+<div class="fh5co-tab-content" data-content="2">
+  <div class="fh5co-content-inner text-center">
+    <p style="font-size:20px;">
+  A formação académica, aliada ao aperfeiçoamento contínuo, reflete o compromisso com a excelência, a aprendizagem constante e o desenvolvimento profissional.
+</p>
+     <div>
+    
+     </div>
+    <div class="fh5co-feature">
+      <div class="fh5co-icon"><i class="fa fa-graduation-cap"></i></div>
+      <div class="fh5co-text">
+        <h2>15/03/2025 - 30/06/2025</h2>
+        <p>Designer UX / UI</p>
+        <p>Instituto de Emprego e Formação Profissional (IEFP), Lisboa - Portugal</p>
+      </div>
+    </div>
+
+    <div class="fh5co-feature">
+      <div class="fh5co-icon"><i class="fa fa-graduation-cap"></i></div>
+      <div class="fh5co-text">
+        <h2>2019</h2>
+        <p>Mestrado por Correspondência — Universidade Europeia del Atlántico (Espanha)</p>
+      </div>
+    </div>
+
+    <div class="fh5co-feature">
+      <div class="fh5co-icon"><i class="fa fa-graduation-cap"></i></div>
+      <div class="fh5co-text">
+        <h2>2009 - 2013</h2>
+        <p>Licenciatura em Arquitetura e Urbanismo — Universidade Metodista de Angola</p>
+        <p>Luanda, Angola</p>
+      </div>
+    </div>
+
+    <div class="fh5co-feature">
+      <div class="fh5co-icon"><i class="fa fa-graduation-cap"></i></div>
+      <div class="fh5co-text">
+        <h2>2007 - 2008</h2>
+        <p>Curso de Arquitetura e Urbanismo — Universidade Lusíada de Angola</p>
+        <p>Luanda, Angola</p>
+       </div>
+    </div>
+  <div>
+</div>
+
+    <!-- BOTÃO PARA BAIXAR CV -->
+<div style="text-align: center; margin-top: 30px;">
+  <a href="CV/CV 2025 -FT.pdf" download class="btn btn-primary"
+     style="background-color: #000000; color: #ffffff; padding: 10px 25px; border-radius: 5px; text-decoration: none; font-size: 16px;">
+    Baixar CV
+  </a>
+</div>
+</div>
+</div>
+
+<!-- EXPERIÊNCIA -->
+<div class="fh5co-tab-content" data-content="3">
+  <div class="fh5co-content-inner">
+    <p style="font-size: 20px;">Tive o privilégio de colaborar com estas empresas de destaque.</p>
+ 
+    <div class="fh5co-feature">
+      <div class="fh5co-icon"><i class="fa fa-black-tie"></i></div>
+      <div class="fh5co-text">
+        <h2>28/10/2024 – 31/01/2025</h2>
+        <h3>Teleperformance Portugal</h3>
+        <p>Customer Service Representative (OUTBOUND).</p>
+      </div>
+    </div>
+
+    <div class="fh5co-feature">
+      <div class="fh5co-icon"><i class="fa fa-black-tie"></i></div>
+      <div class="fh5co-text">
+        <h2>2019 – 2023</h2>
+        <h3>CENTURY 21 Colombo</h3>
+        <p>Agente Imobiliária - Lisboa, Portugal.</p>
+      </div>
+    </div>
+
+    <div class="fh5co-feature">
+      <div class="fh5co-icon"><i class="fa fa-black-tie"></i></div>
+      <div class="fh5co-text">
+        <h2>2019 – 2022</h2>
+        <h3>Restauração “O Pingado”</h3>
+        <p>Proprietária e Gestora do espaço - Almada, Portugal.</p>
+      </div>
+    </div>
+
+    <div class="fh5co-feature">
+      <div class="fh5co-icon"><i class="fa fa-black-tie"></i></div>
+      <div class="fh5co-text">
+        <h2>2017 – 2018</h2>
+        <h3>Universidade Oscar Ribas (UOR)</h3>
+        <p>Docente Universitária - Luanda, Angola.</p>
+      </div>
+    </div>
+
+    <div class="fh5co-feature">
+      <div class="fh5co-icon"><i class="fa fa-black-tie"></i></div>
+      <div class="fh5co-text">
+        <h2>2015 – 2018</h2>
+        <h3>Instituto Superior Politécnico Internacional de Angola (ISIA)</h3>
+        <p>Docente Universitária - Luanda, Angola.</p>
+      </div>
+    </div>
+
+    <div class="fh5co-feature">
+      <div class="fh5co-icon"><i class="fa fa-black-tie"></i></div>
+      <div class="fh5co-text">
+        <h2>2013 – 2015</h2>
+        <h3>ESPROJEC</h3>
+        <p>Projetista de Arquitectura - Luanda, Angola</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+      <!-- SKILLS -->
+      <div class="fh5co-tab-content" data-content="4">
+        <div class="fh5co-content-inner text-center">
+            <p style="font-size:20px;">Através da criatividade e da precisão, transformo ideias em experiências visuais que comunicam com clareza e emocionam com impacto.</p>
+
+          <div class="row text-center">
+<div class="row text-center">
+  <div class="col-md-4"><div class="chart" data-percent="75"><span><strong>After Effects</strong>75%</span></div></div>
+  <div class="col-md-4"><div class="chart" data-percent="70"><span><strong>VS Code</strong>70%</span></div></div>
+  <div class="col-md-4"><div class="chart" data-percent="75"><span><strong>Figma</strong>75%</span></div></div>
+  <div class="col-md-4"><div class="chart" data-percent="80"><span><strong>Inkscape</strong>80%</span></div></div>
+  <div class="col-md-4"><div class="chart" data-percent="90"><span><strong>Canva</strong>90%</span></div></div>
+  <div class="col-md-4"><div class="chart" data-percent="75"><span><strong>Auto CAD</strong>75%</span></div></div>
+  <div class="col-md-4"><div class="chart" data-percent="80"><span><strong>Sketchup</strong>80%</span></div></div>
+  <div class="col-md-4"><div class="chart" data-percent="80"><span><strong>Revit</strong>80%</span></div></div>
+</div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACTOS -->
+<div class="fh5co-tab-content" data-content="5">
+  <div class="fh5co-content-inner text-center">
+    <h2 class="texto-brilho">Vamos conversar!</h2>
+  <p style="font-size:20px;">Preencha o formulário abaixo para me enviar uma mensagem diretamente.</p>
+
+    <form action="#" method="post" style="max-width: 600px; margin: 0 auto; text-align: left;">
+      <div class="form-group">
+        <label for="nome" style="color: #fff;">Nome:</label>
+        <input type="text" class="form-control" id="nome" name="nome" required />
+      </div>
+      <div class="form-group">
+        <label for="telemovel" style="color: #fff;">Telemóvel:</label>
+        <input type="tel" class="form-control" id="telemovel" name="telemovel" required />
+      </div>
+      <div class="form-group">
+        <label for="email" style="color: #fff;">Email:</label>
+        <input type="email" class="form-control" id="email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label for="mensagem" style="color: #ffffff;">Mensagem:</label>
+        <textarea class="form-control" id="mensagem" name="mensagem" rows="5" required></textarea>
+        <div style="text-align: center; margin-top: 20px;">
+    <button type="submit" class="btn btn-primary" style="background-color: #000; border: none; color: #fff; padding: 10px 30px; cursor: pointer;">
+      Enviar
+    </button>
+    </div>
+  </div>
+
+  <!-- Script para parar o vídeo no último frame -->
+  <script>
+    const video = document.getElementById('intro-video');
+    video.addEventListener('ended', () => {
+      video.pause();
+    });
+  </script>
+
+  <!-- Scripts JS principais -->
+  <script src="jquery.min.js"></script>
+  <script src="jquery.waypoints.min.js"></script>
+  <script src="jquery.easypiechart.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
+
+
+
